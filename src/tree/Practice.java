@@ -2,7 +2,9 @@ package tree;
 import java.util.*;
 public class Practice {
 	Scanner sc = new Scanner(System.in);
-	public MyNode createTree() {
+	
+	public MyNode createTree() 
+	{
 		MyNode root = null;
 		System.out.println("Enter Data : ");
 		int data = sc.nextInt();
